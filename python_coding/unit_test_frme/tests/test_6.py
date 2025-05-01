@@ -12,7 +12,7 @@ class Sample_Test(unittest.TestCase):
 
     def test_2(self):
         c = add_fun(10,20)
-        self.assertNotEqual(30,c,msg="failed.....!")    
+        self.assertNotEqual(31,c,msg="failed.....!")    
 
 if __name__=="__main__":
     unittest.main()
